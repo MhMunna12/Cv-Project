@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*clear div & hr Start*/
+
+.clear-div {
+    clear: both;
+}
+
+hr {
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+
+/*clear div & hr end*/
+
+body {
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #11999e;
+    font-weight: bold;
+}
+
+
+/*container start full*/
+
+.container {
+    max-width: 1000px;
+    background-color: #E4f9f5;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+
+/*header div Start*/
+
+header {}
+
+.profile {
+    width: 105px;
+    height: 125px;
+    border: 4px white solid;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    float: left;
+}
+
+.header-bio {
+    float: left;
+    padding: 30px;
+}
+
+.contact-head {
+    float: right;
+    padding: 30px;
+}
+
+.contact-head a {
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+
+.contact-head a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+
+
+/*header div end*/
+
+
+/*-------personal start------*/
+
+#personal {}
+
+.content {
+    margin-bottom: 30px;
+}
+
+.content-left {
+    width: 30%;
+    float: left;
+}
+
+.content-right {
+    width: 70%;
+    float: left;
+}
+
+.common-hr {
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+
+/*-----------
+Education part
+-------------*/
+
+.edu-content-left {
+    float: left;
+    width: 50%;
+}
+
+.edu-content-right {
+    float: right;
+    width: 50%;
+}
+
+
+/*-----------
+Education part end
+-------------*/
+
+.footer-container {
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer-container a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.footer-container p {
+    color: white;
+    margin-top: 15px;
+}
